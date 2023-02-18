@@ -1,5 +1,9 @@
 # README
 
+## demo
+https://mineglobal.vercel.app
+password: 5Your42Client245Key16
+
 ## INSTALL
 
 ``` bash
