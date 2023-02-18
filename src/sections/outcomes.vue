@@ -232,8 +232,8 @@ onMounted( () => {
     box-shadow: 4px 4px 40px rgba(0, 17, 174, 0.08);
     border-radius: 10px;
     width: 343px;
-    padding-left: 25px;
-    padding-right: 19px;
+    padding-left: 15px;
+    padding-right: 0;
     box-sizing: border-box;
   }
   &__heading {
@@ -257,7 +257,8 @@ onMounted( () => {
   font-style: normal;
   font-weight: normal;
   @media screen and (max-width: 576px) {
-    width: 343px;
+    width: auto;
+    padding-right: 5px;
   }
   &__data {
     max-height: 170px;
@@ -342,6 +343,7 @@ onMounted( () => {
     }
   }
   &__error {
+    position: absolute;
     padding-top: 6px;
     padding-left: 16px;
     font-family: 'IBM Plex Sans', serif;

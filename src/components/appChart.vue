@@ -26,13 +26,13 @@
       </a>
     </div>
     <div>
-      <line-chart
-        v-if="mode === 'historical'"
-        :key="mode"
-        class="line-chart"
-        :mode="mode"
-      />
-      <bar-chart v-else />
+      <transition name="fade">
+        <line-chart
+          v-if="mode === 'historical'"
+          class="line-chart"
+        />
+        <bar-chart v-else />
+      </transition>
     </div>
   </div>
 </template>
@@ -128,4 +128,14 @@ function changeMode(value) {
   }
 }
 
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  height: 0;
+  opacity: 0;
+}
 </style>

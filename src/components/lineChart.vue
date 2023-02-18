@@ -25,7 +25,7 @@
     </div>
     <div class="canvas__container">
       <canvas
-        id="myChart"
+        id="myChart2"
       />
     </div>
   </div>
@@ -34,7 +34,7 @@
 <script setup>
 import moment from 'moment'
 import { Chart, LinearScale, LineController, CategoryScale, LineElement, PointElement } from 'chart.js'
-import {ref, onMounted, inject} from 'vue'
+import {ref, onMounted, inject } from 'vue'
 import {useI18n} from 'vue-i18n'
 
 Chart.register(LinearScale, LineController, CategoryScale, LineElement, PointElement)
@@ -62,6 +62,11 @@ const options = {
 			top: !device ? 50 : 0
 		}
 	},
+	dataset: {
+		animation: (ctx) => {
+			console.log(ctx)
+		}
+	},
 	elements: {
 		line: {
 			lineTension: 0.5,
@@ -74,7 +79,7 @@ const options = {
 		display: false
 	},
 	animation: {
-		duration: 0
+		duration: 1000,
 	},
 	scales: {
 		xAxis: {
@@ -110,15 +115,17 @@ const options = {
 					return label + '%'
 				}
 			}
-		}
-	}
+		},
+	},
 }
+
+let lineChart
 
 onMounted(async () => {
 	const { data } = await import('./data.js')
 	CopyOfData = data
 
-	const ctx = document.getElementById('myChart').getContext('2d')
+	const ctx = document.getElementById('myChart2').getContext('2d')
 
 	const gradient = ctx.createLinearGradient(0, 0, 0, 400)
 	gradient.addColorStop(0, '#55D2FF')
@@ -131,7 +138,7 @@ onMounted(async () => {
 
 	fillData(gradient)
 
-	const lineChart = new Chart(ctx, {
+	lineChart = new Chart(ctx, {
 		type: 'line',
 		data: chartData,
 		options: options,
@@ -145,6 +152,10 @@ onMounted(async () => {
 
 })
 
+// onDeactivated(() => {
+// 	lineChart.destroy()
+// })
+
 function fillData (gradient) {
 	chartData = {
 		labels: chartTicksFormatter(),
@@ -157,9 +168,10 @@ function fillData (gradient) {
 				lineTension: 0.8,
 				pointBorderColor: 'transparent',
 				pointBackgroundColor: 'transparent',
-				borderWidth: idx > 0 ? 3 : 6
+				borderWidth: idx > 0 ? 3 : 6,
 			}
-		})
+		}),
+
 	}
 }
 
@@ -234,12 +246,16 @@ function chartTicksFormatter () {
     }
   }
   .canvas__container {
+    padding-top: 15px;
     position: relative;
     width: 105%;
     height: 100%;
+    @media screen and (max-width: 576px) {
+      padding-top: 0;
+    }
   }
 
-  canvas#myChart {
+  canvas#myChart2 {
     margin-top: 20px;
   }
   @media screen and (max-width: 576px) {
@@ -283,7 +299,7 @@ function chartTicksFormatter () {
       }
     }
 
-    canvas#myChart {
+    canvas#myChart2 {
       position: absolute;
       //margin-top: 20px;
       //margin-left: 10px;

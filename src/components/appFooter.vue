@@ -180,6 +180,9 @@ function setLocale(localeValue) {
   }
   &__column {
     flex: 0 0 235px;
+    .nav__link:hover {
+      text-decoration: underline;
+    }
     @media screen and (max-width: 576px) {
       flex-basis: auto;
       &_links {
@@ -215,6 +218,9 @@ function setLocale(localeValue) {
     }
     &_banking {
       flex-basis: 327px;
+      .nav__link:hover {
+        text-decoration: none;
+      }
       @media screen and (max-width: 576px) {
         max-width: 264px;
         flex-basis: auto;

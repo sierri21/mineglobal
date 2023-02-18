@@ -202,7 +202,10 @@ function setLocale(localeValue) {
         font-size: 16px;
       }
       &:hover {
-        opacity: .6;
+        //border-bottom: 2px solid #C3D5F0;
+        //opacity: .6;
+        transition: .3s ease;
+        text-decoration: underline;
       }
     }
   }
