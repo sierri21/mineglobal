@@ -1,0 +1,135 @@
+{
+  "header": {
+    "links": {
+      "fund": "Fund",
+      "outcomes": "Outcomes",
+      "features": "Features",
+      "contact": "Contact",
+      "legal": "Legal"
+    }
+  },
+  "sections": {
+    "preloader": {
+      "crypto": "crypto"
+    },
+    "intro": {
+      "heading": "Your crypto could have been working for {timer} second now.",
+      "text": "Join Usaldusfond by MineGlobal OÜ to make your portfolio work every single moment.",
+      "button": "Contact us to get actual outcomes"
+    },
+    "principles": {
+      "1": {
+        "title": "Following AML policies",
+        "text": "<p>MineGlobal OÜ strictly complies with all requirements imposed by fund managers with permits from the Estonian Financial Services Authority regarding Anti-money laundering policies and ‘Know Your Client’ procedures as well as safe and secure storage of digital and fiat customer assets. </p><a href=\"/legal/MineGlobal OU AML Policy.pdf\" style=\"text-decoration: none; color: #FFFFFF; margin-top: 10px; display: block\" class=\"card__text\"><span style=\"text-decoration: underline; color: #FFFFFF\">Open AML policies</span>  ↗</a>"
+      },
+      "2": {
+        "title": "Asset management",
+        "text": "Trusted asset management is the key feature of Usaldusfond by MineGlobal OÜ. Unique investment strategies smooth market fluctuations and surpass Bitcoin long-term returns."
+      },
+      "3": {
+        "title": "Risk management",
+        "text": "<p style=\"margin-bottom: 10px\">Traders and analysts of the Fund are divided from the risk management department. All portfolios are being hedged.</p><p>MineGlobal OÜ mitigates risks by distributing the assets to several independent custodians and limits the amount of assets involved in intraday trading. The team has extensive asset management experience in classic markets.</p>"
+      },
+      "4": {
+        "title": "Reliable exchanges",
+        "text": "MineGlobal OÜ works only with reliable digital assets exchanges: Binance, Bittrex, and Kraken. Investment operations are distributed among several exchanges to minimize risks."
+      },
+      "5": {
+        "title": "24/7 control over assets",
+        "text": ""
+      },
+      "6": {
+        "title": "Bank-level custody service",
+        "text": ""
+      }
+    },
+    "outcomes": {
+      "heading": "Actual outcomes <br> of Usaldusfond",
+      "text": "Usaldusfond strategy is formed of Top 20 crypto assets, and includes daytrading. The Fund smoothes market fluctuations and surpasses the long-term returns of classic investment tools. Every portfolio is accompanied by crypto options and futures in order to hedge drawdown risks.",
+      "aum": "Usaldusfond AUM: {aum} USDT",
+      "chart": {
+        "header": {
+          "historical": "Historical Profitability",
+          "actual": "Actual Fund Profitability"
+        }
+      },
+      "profitability": {
+        "total": "Overall fund profitablity: <span style='color: #642FFF;'>{percent}</span>",
+        "table-head": {
+          "date": "Date",
+          "return": "Weekly return",
+          "cap": "Fund Cap"
+        }
+      },
+      "auth": {
+        "text": "Enter your Client Key to see the exact capitalization and the outcomes of Usaldusfond.",
+        "placeholder": "Your Client key",
+        "submit": "submit",
+        "error": "Please enter valid Client Key"
+      }
+    },
+    "ledger": {
+      "cards": {
+        "1": {
+          "highlight": "Security",
+          "title-start": "",
+          "title-end": "is not just a word",
+          "text": "<p style='margin-bottom: 15px'>Usaldusfond use an advanced custody service – the innovative Ledger Vault cold storage depository.</p>\n            <p style='margin-bottom: 15px'>Ledger Vault is used by the largest digital asset exchanges and European banks, offering storage services for digital assets. It meets all the requirements for ‘cold’ digital storages in terms of transparency and protection of client assets.</p>\n            <p>As with the bank custody, the Ledger solution allows to track the status of the asset management easily.</p>"
+        },
+        "2": {
+          "highlight": "crypto",
+          "title-start": "Leading ",
+          "title-end": " exchanges",
+          "text": "MineGlobal OÜ management strategies involve hedging using derivatives, as well as intraday  trading. The Fund corporate accounts are currently opened on Binance, Bittrex at Kraken digital asset exchanges. Investment operations are distributed among several exchanges to minimize risks."
+        },
+        "3": {
+          "highlight": "regulators",
+          "title-start": "Strict adherence to ",
+          "title-end": "",
+          "text": "<p style='margin-bottom:15px'>MineGlobal OÜ strictly complies with all requirements imposed by fund managers with permits from the Estonian Financial Services Authority regarding Anti-money laundering policies and ‘Know Your Client’ procedures.</p><p>Finantsinspektsioon authorization of MineGlobal OÜ is 4.1-1/26.</p>"
+        }
+      }
+    },
+    "about": {
+      "mail": "info{'@'}mineglobal.ee",
+      "address": "Harju maakond, Tallinn, Kesklinna linnaosa, Narva mnt 7-557, 10117, Estonia",
+      "phone": "+372 880 14 75"
+    }
+  },
+  "footer": {
+     "company": {
+       "title": "Company",
+       "links": {
+         "fund": "Fund",
+         "outcomes": "Outcomes",
+         "features": "Features",
+         "contact": "Contact",
+         "legal": "Legal"
+       }
+     },
+    "legal": {
+      "title": "Legal info",
+      "links": {
+        "authorization": "Finantsinspektsioon Authorization №4.1-1/26",
+        "privacy": "Privacy Policy"
+      }
+    },
+    "banking": {
+      "title": "Banking details",
+      "links": {
+        "beneficiary": "Beneficiary: MineGlobal OÜ",
+        "account": "Account: LT713510001850914668",
+        "swift": "SWIFT: MIEGLT21XXX",
+        "bank": "Name of the bank: Mistertango - Secure Nordic Payments, UAB ",
+        "address": "Address: Perkūnkiemio g. 2, LT-12126 Vilnius, Lithuania"
+      }
+    },
+    "lang": {
+      "title": "LANGUAGE",
+      "links": {
+        "en": "English",
+        "et": "Estonian"
+      }
+    }
+  }
+}

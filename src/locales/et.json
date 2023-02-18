@@ -1,0 +1,135 @@
+{
+  "header": {
+    "links": {
+      "fund": "Fond",
+      "outcomes": "Tulemused",
+      "features": "Tunnused",
+      "contact": "Kontaktandmed",
+      "legal": "Õiguslik"
+    }
+  },
+  "sections": {
+    "preloader": {
+      "crypto": "krüpto"
+    },
+    "intro": {
+      "heading": "Sinu krüpto võinuks juba töös olla {timer} sekundit.",
+      "text": "Liituge MineGlobal OÜ poolse Usaldusfondiga, et portfoolio enda jaoks tööle panna.",
+      "button": "Võtke meiega ühendust"
+    },
+    "principles": {
+      "1": {
+        "title": "Järgime AML poliitikat",
+        "text": "MineGlobal OÜ järgib rangelt kõiki Finantsinspektsioonilt tegutsemiseks loa saanud fondihaldurite poolt kehtestatud nõudeid seoses Rahapesu tõkestamise poliitika„Tunne-oma-klienti“ protseduuride ning klientide digitaalsete ja fiat-varade ohutu ja turvalise hoiustamisega. <a href=\"/legal/MineGlobal OU AML Policy.pdf\" style=\"text-decoration: none; color: #FFFFFF; margin-top: 10px; display: block\" class=\"card__text\"><span style=\"text-decoration: underline; color: #FFFFFF\">Ava AML poliitika</span>  ↗</a>"
+      },
+      "2": {
+        "title": "Varahaldus",
+        "text": "Usaldusväärne varahaldus on MineGlobal OÜ poolse Usaldusfondi põhiomadus. Unikaalsed investeerimisstrateegiad ületavad Bitcoinist saadavat pikaajalist tulu."
+      },
+      "4": {
+        "title": "Usaldusväärsed tehingud",
+        "text": "MineGlobal OÜ töötab ainult usaldusväärsete digitaalsete varade vahetusbörsidega: Binance, Bittrex ja Kraken."
+      },
+      "3": {
+        "title": "Riskihaldus",
+        "text": "Meie fondi kauplejad ja analüütikud jagunevad riskijuhtimise osakonnast. Kõik portfellid on maandatud. MineGlobal OÜ maandab kauplemisriske, läbi varade liigitamise mitmele sõltumatule varahaldurile ning piirab päevasiseste kauplemisega seotud varade mahte. Meie meeskonna ulatuslik varahalduse kogemus pärineb klassikalistelt börsiturgudelt."
+      },
+      "6": {
+        "title": "Panga tasandil omandiõigus",
+        "text": ""
+      },
+      "5": {
+        "title": "24/7 kontoll oma vara üle",
+        "text": ""
+      }
+    },
+    "outcomes": {
+      "heading": "Usaldusfondi <br>tegelikud tulemused",
+      "text": "Usaldusfondi strateegia hõlmab Top 20 krüptorahasid ning sisaldab endas päevakauplemist. Fond leevendab turukõikumisi ning ületab klassikaliste investeerimisvahendite pikaajalist tootlust. Iga portfelliga on kaasas krüptooptsioonid ja futuurid, et maandada neist tulenevaid väljavõtmise riske.",
+      "aum": "Usaldusfondi AuM: {aum} USDT",
+      "chart": {
+        "header": {
+          "historical": "Ajalooline kasumlikkus",
+          "actual": "Fondi Tegelik Tootlikus"
+        }
+      },
+      "profitability": {
+        "total": "Üldine fondi kasumlikkus: <span style='color: #642FFF;'>{percent}</span>",
+        "table-head": {
+          "date": "Kuupäev",
+          "return": "Nädalane tootlus",
+          "cap": "Fondi Ülempiir"
+        }
+      },
+      "auth": {
+        "text": "Sisestage enda Kliendivõti, nägemaks Usaldusfondi täpset vara kapitaliseerimist ja tulemusi.",
+        "placeholder": "Sinu Kliendivõti",
+        "submit": "SISESTA",
+        "error": "Palun sisestage kehtiv Kliendivõti"
+      }
+    },
+    "ledger": {
+      "cards": {
+        "1": {
+          "highlight": "Turvalisus",
+          "title-start": "",
+          "title-end": "ei ole lihtsalt sõna",
+          "text": "<p style='margin-bottom: 15px'>Usaldusfond kasutab täiustatud hoiustamisteenust – innovaatilist Ledger Vault külma rahakotti. Ledger Vaulti kasutavad suurimad digitaalsete varade börsid ja Euroopa pangad, pakkudes seeläbi digitaalsete varade hoiustamisteenuseid. See vastab kõikidele \"külmade\" digitaalsete salvestusseadmete stabiilsuse ja kliendi varade kaitse nõuetele.</p><p style='margin-bottom: 15px'>Ledger Vaulti kasutavad suurimad digitaalsete varade börsid ja Euroopa pangad, pakkudes digitaalsete varade hoiustamisteenuseid. See vastab kõigile \"külmade\" digitaalsete salvestusseadmete stabiilsuse ja kliendi varade kaitse nõuetele.</p> Nagu pangas hoiustamine, võimaldab Ledger lahendus varade hetkeseisu lihtsalt jälgida."
+        },
+        "2": {
+          "highlight": "Regulaatorite",
+          "title-start": "",
+          "title-end": " range järgimine",
+          "text": "MineGlobal OÜ järgib rangelt kõiki Finantsinspektsioonilt tegutsemiseks loa saanud fondihaldurite poolt kehtestatud nõudeid seoses Rahapesu tõkestamise poliitika ning „Tunne-oma-klienti“ protseduuridega. MineGlobal OÜ Finantsinspektsiooni otsuse number on 4.1-1/26."
+        },
+        "3": {
+          "highlight": "krüpto",
+          "title-start": "Juhtivad ",
+          "title-end": " vahetusturud",
+          "text": "MineGlobal OÜ juhtimisstrateegiad hõlmavad riskimaandamisinstrumente kasutades selleks tuletisinstrumente koos päevasisese kauplemisega. Fondi ettevõtete kontod on hetkel avatud digitaalsetes varavahetusbörsides Binance'is, Bittrex'is ja Kraken'is. Riskide minimeerimiseks jaotatakse investeerimistoimingud mitme vahetusturu vahel."
+        }
+      }
+    },
+    "about": {
+      "mail": "info{'@'}mineglobal.ee",
+      "address": "Narva mnt 7-557, Kesklinna linnaosa, Tallinn 10117, Harju maakond, Eesti",
+      "phone": "+372 880 14 75"
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "Ettevõte",
+      "links": {
+        "fund": "Fond",
+        "outcomes": "Tulemused",
+        "features": "Tunnused",
+        "contact": "Kontaktandmed",
+        "legal": "Õiguslik"
+      }
+    },
+    "legal": {
+      "title": "Õiguslik teave",
+      "links": {
+        "authorization": "Finantsinspektsioon Authorization №4.1-1/26",
+        "privacy": "Privacy Policy"
+      }
+    },
+    "banking": {
+      "title": "Pangainfo",
+      "links": {
+        "beneficiary": "Saaja: MineGlobal OÜ",
+        "account": "Konto: LT713510001850914668",
+        "swift": "SWIFT: MIEGLT21XXX",
+        "bank": "Panga nimi: Mistertango - Secure Nordic Payments, UAB",
+        "address": "Aadress: Perkūnkiemio g. 2, LT-12126 Vilnius, Leedu"
+      }
+    },
+    "lang": {
+      "title": "Keel",
+      "links": {
+        "en": "Inglise",
+        "et": "Eesti"
+      }
+    }
+  }
+}
